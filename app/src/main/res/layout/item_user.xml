@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="18dp"
+    android:backgroundTint="@color/slightly_desaturated"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/user_icon" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_gray"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            tools:text="MrPatoCode" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_gray"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            tools:text="Paul" />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_gray"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            tools:text="555 555 555" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_gray"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            tools:text="one_example@email.com" />
+
+        <TextView
+            android:id="@+id/tvWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_gray"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            tools:text="https://example.com" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
