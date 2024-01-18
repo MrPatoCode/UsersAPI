@@ -1,4 +1,4 @@
-Prueba técnica (consumo de API) - Aplicacion Android
+Prueba técnica (consumo de API) - App Android
 
 •	MVVM
 
