@@ -1,5 +1,4 @@
-Prueba técnica (consumo de API) - Aplicacion Android nativa
-
+Prueba técnica (consumo de API) - Aplicacion Android
 •	MVVM
 
 •	Retrofit
