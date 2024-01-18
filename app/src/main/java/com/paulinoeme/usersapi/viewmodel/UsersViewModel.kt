@@ -11,7 +11,7 @@ import kotlinx.coroutines.launch
 class UsersViewModel: ViewModel() {
     val userModel = MutableLiveData<List<UserModel>>()
 
-    val getAllUsers = GetAllUsersCaseUser()
+    private val getAllUsers = GetAllUsersCaseUser()
 
     fun onCreate(){
         viewModelScope.launch {
