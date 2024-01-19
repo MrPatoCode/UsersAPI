@@ -1,5 +1,7 @@
 Prueba técnica (consumo de API) - App Android
 
+•	POO
+
 •	MVVM
 
 •	Retrofit
